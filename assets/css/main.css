@@ -22,7 +22,6 @@
 font-size: 3em;
 line-height: 1.5em;
 color: #777777;
-
 }
 
 h2{
@@ -46,6 +45,18 @@ h5{
   color: white;
   background-color: #fff;
   -webkit-transform: scale(1.1);
-  color: #8c8f98;
+  color: #7DA4F4;
   -webkit-transtion: all 0.5s ease-in-out;
+}
+
+.box:hover h2{
+  color: #7DA4F4;
+}
+
+.box:hover span{
+  color: #7DA4F4;
+}
+
+.box:hover h5{
+  color:  #777777;
 }
